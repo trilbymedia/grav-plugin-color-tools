@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Grav\\Plugin\\ColorToolsPlugin' => $baseDir . '/color-tools.php',
-    'Mexitek\\PHPColors\\Color' => $vendorDir . '/mexitek/phpcolors/src/Mexitek/PHPColors/Color.php',
 );
