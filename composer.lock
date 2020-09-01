@@ -4,63 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d077e3e9711584b92e65d43c17420393",
-    "packages": [
-        {
-            "name": "mexitek/phpcolors",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mexitek/phpColors.git",
-                "reference": "9d7cf28aab475a26b9f5be4f9dc4106736956678"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mexitek/phpColors/zipball/9d7cf28aab475a26b9f5be4f9dc4106736956678",
-                "reference": "9d7cf28aab475a26b9f5be4f9dc4106736956678",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "nette/tester": "~1.6"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Arlo Carreon",
-                    "homepage": "http://arlocarreon.com",
-                    "role": "creator"
-                }
-            ],
-            "description": "A series of methods that let you manipulate colors. Just incase you ever need different shades of one color on the fly.",
-            "homepage": "http://mexitek.github.com/phpColors/",
-            "keywords": [
-                "color",
-                "css",
-                "design",
-                "frontend",
-                "ui"
-            ],
-            "time": "2019-10-30T17:23:48+00:00"
-        }
-    ],
+    "content-hash": "94cd801a0ddd9af23bec6d752535dfe3",
+    "packages": [],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "mexitek/phpcolors": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

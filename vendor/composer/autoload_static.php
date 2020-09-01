@@ -22,7 +22,6 @@ class ComposerStaticInitc86e4df7714fddc74885de4c86d6c390
 
     public static $classMap = array (
         'Grav\\Plugin\\ColorToolsPlugin' => __DIR__ . '/../..' . '/color-tools.php',
-        'Mexitek\\PHPColors\\Color' => __DIR__ . '/..' . '/mexitek/phpcolors/src/Mexitek/PHPColors/Color.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
