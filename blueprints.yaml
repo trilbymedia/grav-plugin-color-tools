@@ -15,7 +15,7 @@ docs: https://github.com/trilbymedia/grav-plugin-color-tools/blob/develop/README
 license: MIT
 
 dependencies:
-  - { name: grav, version: '>=1.7.0rc.16' }
+  - { name: grav, version: '>=1.6.0' }
 
 form:
   validation: loose
