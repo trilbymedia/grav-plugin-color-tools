@@ -1,7 +1,7 @@
 name: Color Tools
 slug: color-tools
 type: plugin
-version: 1.0.0
+version: 1.0.1
 description: Color Tools for PHP and Twig
 icon: paint-brush
 author:
@@ -15,7 +15,7 @@ docs: https://github.com/trilbymedia/grav-plugin-color-tools/blob/develop/README
 license: MIT
 
 dependencies:
-  - { name: grav, version: '>=1.6.0' }
+  - { name: grav, version: '>=1.6.28' }
 
 form:
   validation: loose
