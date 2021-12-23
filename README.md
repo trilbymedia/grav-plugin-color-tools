@@ -1,6 +1,6 @@
 # Color Tools Plugin
 
-The **Color Tools** Plugin is an extension for [Grav CMS](http://github.com/getgrav/grav) that provides useful Twig and PHP tools for working with CSS colors. When a color object is created, it provides the ability to call a variety of methods to manipulate the color and returns the results. 
+The **Color Tools** Plugin is an extension for [Grav CMS](http://github.com/getgrav/grav) that provides useful Twig and PHP tools for working with CSS colors. When a color object is created, it provides the ability to call a variety of methods to manipulate the color and returns the results.
 
 ## Methods Available
 
@@ -39,18 +39,25 @@ If you use the Admin Plugin, you can install the plugin directly by browsing the
 
 ## Twig Usage
 
-This plugin returns a color object with the twig filter `|color_object`. For example:
+This plugin returns a color object with the twig filter `|color`. For example:
 
 ```twig
-{% set orange_color = '#FFCC00'|color_object %}
+{% set orange_color = '#FFCC00'|color %}
 {{ orange_color.darken(20) }}
 ```
 
-or 
+or
 
 ```twig
-{% set button_color = page.header.hero_button.color|color_object %}
+{% set button_color = page.header.hero_button.color|color %}
 {% set button_css_class = button_color.isLight() ? 'text-dark' : 'text-light' %}
+```
+
+A `color()` function is also available:
+
+```twig
+{% set orange_color = color('#FFCC00') %}
+{{ orange_color.darken(20) }}
 ```
 
 ## PHP Usage
@@ -70,5 +77,3 @@ $button_css_class = $button_color->isLight() ? 'text-dark' : 'text-light';
 ## Credits
 
 The PHP class used was originally developed by Arlo Carreon <http://arlocarreon.com>, then modified by Trilby Media.
-
-

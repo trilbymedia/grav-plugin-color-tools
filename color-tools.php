@@ -61,8 +61,13 @@ class ColorToolsPlugin extends Plugin
     public function onTwigInitialized()
     {
         $this->grav['twig']->twig()->addFunction(
-            new \Twig_SimpleFunction('color', function ($hex) {
+            new \Twig\TwigFunction('color', function ($hex) {
                 return new Color($hex);
+            })
+        );
+        $this->grav['twig']->twig()->addFilter(
+            new \Twig\TwigFilter('color', function ($hex) {
+              return new Color($hex);
             })
         );
     }
