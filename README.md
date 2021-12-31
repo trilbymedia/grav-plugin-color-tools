@@ -18,8 +18,11 @@ The **Color Tools** Plugin is an extension for [Grav CMS](http://github.com/getg
 * `lighten()`
 * `makeGradient()`
 * `mix()`
+* `nameToHex()`
 * `rgbToHex()`
 * `rgbToString()`
+
+More information can be found on the GitHub site for the library: https://github.com/mexitek/phpColors
 
 ## Installation
 
@@ -60,6 +63,18 @@ A `color()` function is also available:
 {{ orange_color.darken(20) }}
 ```
 
+To use the `name_to_hex` function or twig:
+
+```twig
+{{ name_to_hex('chartreuse') }}
+
+or
+
+{{ 'lavender'|name_to_hex }}
+```
+
+Full list of color names: https://github.com/mexitek/phpColors/blob/master/src/Mexitek/PHPColors/Color.php#L241
+
 ## PHP Usage
 
 To use this class in PHP is also quite simple, an example that mimic above can be seen below:
@@ -76,4 +91,4 @@ $button_css_class = $button_color->isLight() ? 'text-dark' : 'text-light';
 
 ## Credits
 
-The PHP class used was originally developed by Arlo Carreon <http://arlocarreon.com>, then modified by Trilby Media.
+The PHP class used was originally developed by Arlo Carreon <http://arlocarreon.com> in [mexitek/phpColors](https://github.com/mexitek/phpColors), then modified by Trilby Media.

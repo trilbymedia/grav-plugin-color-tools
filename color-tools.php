@@ -70,6 +70,16 @@ class ColorToolsPlugin extends Plugin
               return new Color($hex);
             })
         );
+        $this->grav['twig']->twig()->addFunction(
+            new \Twig\TwigFunction('name_to_hex', function ($name) {
+                return Color::nameToHex($name);
+            })
+        );
+        $this->grav['twig']->twig()->addFilter(
+            new \Twig\TwigFilter('name_to_hex', function ($name) {
+              return Color::nameToHex($name);
+            })
+        );
     }
 
 }
