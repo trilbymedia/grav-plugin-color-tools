@@ -1,5 +1,5 @@
 # v1.1.0
-## mm/dd/2021
+## 01/03/2022
 
 1. [](#new)
    * Updated to `dev-master` of `Mexitek/PHPColors` to get latest functionality

@@ -1,7 +1,7 @@
 name: Color Tools
 slug: color-tools
 type: plugin
-version: 1.0.2
+version: 1.1.0
 description: Color Tools for PHP and Twig
 icon: paint-brush
 author:
