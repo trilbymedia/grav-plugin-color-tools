@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc86e4df7714fddc74885de4c86d6c390
+class ComposerStaticInit8d24c6cfdbbca0c2bd80548a1eefba75
 {
     public static $prefixLengthsPsr4 = array (
         'G' => 
@@ -21,15 +21,17 @@ class ComposerStaticInitc86e4df7714fddc74885de4c86d6c390
     );
 
     public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Grav\\Plugin\\ColorToolsPlugin' => __DIR__ . '/../..' . '/color-tools.php',
+        'Mexitek\\PHPColors\\Color' => __DIR__ . '/..' . '/mexitek/phpcolors/src/Mexitek/PHPColors/Color.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc86e4df7714fddc74885de4c86d6c390::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc86e4df7714fddc74885de4c86d6c390::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitc86e4df7714fddc74885de4c86d6c390::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8d24c6cfdbbca0c2bd80548a1eefba75::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8d24c6cfdbbca0c2bd80548a1eefba75::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit8d24c6cfdbbca0c2bd80548a1eefba75::$classMap;
 
         }, null, ClassLoader::class);
     }

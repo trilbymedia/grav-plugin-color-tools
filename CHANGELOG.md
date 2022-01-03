@@ -1,3 +1,10 @@
+# v1.1.0
+## 01/03/2022
+
+1. [](#new)
+   * Updated to `dev-master` of `Mexitek/PHPColors` to get latest functionality
+   * Added `name_to_hex` Twig function and filter [#4](https://github.com/trilbymedia/grav-plugin-color-tools/issues/4)
+
 # v1.0.2
 ## 12/23/2021
 
