@@ -1,5 +1,5 @@
 # v1.1.1
-## mm/dd/2022
+## 04/26/2022
 
 1. [](#new)
    * Added new `tailwindFormat()` function to convert Hex to Tailwind compatible channels
