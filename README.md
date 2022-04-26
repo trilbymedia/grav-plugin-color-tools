@@ -21,6 +21,7 @@ The **Color Tools** Plugin is an extension for [Grav CMS](http://github.com/getg
 * `nameToHex()`
 * `rgbToHex()`
 * `rgbToString()`
+* `tailwindFormat()`
 
 More information can be found on the GitHub site for the library: https://github.com/mexitek/phpColors
 

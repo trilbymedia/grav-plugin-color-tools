@@ -12,7 +12,11 @@ namespace Grav\Plugin\ColorTools;
 /**
  * A color utility that helps manipulate HEX colors
  */
-class Color  extends \Mexitek\PHPColors\Color
+class Color extends \Mexitek\PHPColors\Color
 {
-    // Allow for custom methods as needed
+    public function tailwindFormat(): string
+    {
+        $color = Color::hexToRgb($this->getHex());
+        return "{$color['R']} {$color['G']} {$color['B']}";
+    }
 }
