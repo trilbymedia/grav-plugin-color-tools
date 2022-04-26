@@ -1,3 +1,9 @@
+# v1.1.1
+## 04/26/2022
+
+1. [](#new)
+   * Added new `tailwindFormat()` function to convert Hex to Tailwind compatible channels
+
 # v1.1.0
 ## 01/03/2022
 
